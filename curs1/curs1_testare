@@ -1,0 +1,49 @@
+Testare software-găsirea defectelor înainte sa între in producție
+Un proces de evaluare a unei aplicații cu scopul de a gasi defecte/buguri inainte ca aplicație sa fie lansată sau updata-ta
+
+După tipul de testare:
+1.Funcțională- îndeplinește cerințele
+2.NON-funcțională-se pune accent pe performanța, securitate,scalabilitate
+
+După nivelul de testare:
+1. Testare unitara- fiecare Developer testează componente individuale adică clasele pentru a se asigura ca funcționează corect
+2. Testare de integrare-testează interacțiunea între clase
+3. Testare de sistem-testează sistemul ca un întreg
+4. Testare de acceptare-merge la niște utilizatori și ei încearcă aplicația sa vadă dacă e ok, dacă propun unele modificări
+
+După metodologia de testare:
+1.Manuala- testare cu mana, da click, introduce valori și încearcă sa valideze faptul ca nu exista bug-uri
+Pentru aceasta metodologie se folosesc test cases unde se descrie scenariul
+2.Testarea automata- automatizează scenariile de testare și simulează într-un mediu virtual
+
+
+Pentru testare UI- user interface cea mai folosită librărie este librăria selenium
+Librăria selenium- prin anumite obiective numite drivere imita comportamentul unui browser
+
+Elementele HTML
+Tag HTML- început de element între semnele <> care indica tipul elementului
+De exemplu: h1,h2 reprezintă headuri
+<a> reprezintă linkuri
+<input> căsuțe care pot introduce text
+placeholder- ce text vreau pe căsuța
+type- poate conține text sau parole
+class- clase care țin de design
+id- identificator unic, ca un fel de cnp
+Se Închide </>
+Head nu conține elemente vizuale, deci o să ne intereseze doar body
+
+Orice element e reprezentat de o bucata de cod din HTML, aceste elemente au perechi atribut= valoare care definesc proprietățile
+
+
+
+Webdriver- reprezentarea unui browser
+
+Selectori- șir de caractere care identifica un element pentru a interacționa cu el
+Poate fi:
+ID
+Class
+Name
+Link Text
+Partial Link text
+Xpath
+CSS selector
